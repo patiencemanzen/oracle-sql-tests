@@ -94,6 +94,9 @@ SELECT name FROM Authors WHERE author_id IN (SELECT author_id FROM Books GROUP B
 ## Screenshots
 ![Screenshot 2024-09-23 at 10 27 01](https://github.com/user-attachments/assets/976af06c-bab4-42d1-99ad-368575fa32ae)
 
+## Conceptual Diagram
+![Diagram](Conceptual-Diagram.mdj)
+
 
 ## Explanations
 The above SQL queries retrieve data from multiple related tables and manage transactions effectively.
